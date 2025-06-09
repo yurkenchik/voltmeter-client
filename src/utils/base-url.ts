@@ -1,0 +1,1 @@
+export const BaseUrl = 'https://voltmeter-server-production.up.railway.app/api';
