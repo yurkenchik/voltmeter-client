@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { VoltageService } from '../../api/VoltageService';
 import { Voltage, GetVoltageReadingsFilterOptionsDto } from '../../interfaces/voltage';
 import { PaginationResponse } from '../../interfaces/pagination';
-import { Box, Button, Flex, Grid, Select, Text } from '@chakra-ui/react';
+import { Box, Button, Select, Text } from '@chakra-ui/react';
     
 const statusColors: Record<string, string> = {
     High: 'green.600',

@@ -1,5 +1,4 @@
-import React from 'react';
-import { Box, SimpleGrid, Stat, StatLabel, StatNumber, Text } from '@chakra-ui/react';
+import { Box, SimpleGrid, Stat, StatLabel, StatNumber } from '@chakra-ui/react';
 import { VoltageSummaryStatisticsResponseDto } from './../../../interfaces/voltage';
 
 export default function SummaryStatistics({ summary }: { summary: VoltageSummaryStatisticsResponseDto }) {
