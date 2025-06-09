@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { VoltageService } from '../../api/VoltageService';
 import { Voltage, GetVoltageReadingsFilterOptionsDto } from '../../interfaces/voltage';
 import { PaginationResponse } from '../../interfaces/pagination';

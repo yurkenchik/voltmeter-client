@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { StatisticsService } from '../../api/StatisticsService';
 import {
-    DailyVoltageStatisticsDto,
     DailyVoltageStatisticsResponseDto,
-    HourlyVoltageStatDto,
     HourlyVoltageStatisticsResponseDto,
     VoltageStatusCountDto,
     VoltageSummaryStatisticsResponseDto
 } from '../../interfaces/voltage';
-import { Box, Text, Select } from '@chakra-ui/react';
-import {
-    BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line
-} from 'recharts';
+import { Box, Text } from '@chakra-ui/react';
 import SummaryStatistics from "../../components/ui/statistics/SummaryStatistics";
 import DailyTrendsChart from "../../components/ui/statistics/DailyTrendsChart";
 import StatusCountChart from "../../components/ui/statistics/StatisticsCountChart";
