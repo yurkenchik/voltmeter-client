@@ -1,3 +1,4 @@
+import { VoltageStatusCountDto } from '../../../interfaces/voltage';
 import { Badge, Box, Flex, Text } from '@chakra-ui/react';
 import {
     BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell
